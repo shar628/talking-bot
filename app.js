@@ -24,7 +24,7 @@ function computerSpeech(words) {
     speech.volume = 1;
     speech.rate = 1;
 
-    // speech.text = words;
+    speech.text = words;
 
     determineWords(speech, words);
 
